@@ -1,0 +1,20 @@
+# CAM 1
+
+def SumLargestFour(arr):
+  
+  # Add your code here
+
+  if len(arr) < 4:
+    return sum(arr)
+
+  arr_sorted = sorted(arr, reverse=True)
+
+  varOcg = sum(arr_sorted[:4])
+
+  return ans
+
+x = [1, 2, 3, 4, 5]
+
+y = SumLargestFour(x)
+
+y
